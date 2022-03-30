@@ -1,0 +1,28 @@
+.navigation {
+    position: relative;
+    .header {
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+        background-color: white;
+    }
+    .outlet {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navigation {
+        .outlet {
+            padding-top: 80px;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .navigation {
+        .outlet {
+            padding-top: 100px;
+        }
+    }
+}

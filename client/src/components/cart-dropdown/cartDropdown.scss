@@ -1,0 +1,129 @@
+.cart-dropdown-container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding-top: 10px;
+    z-index: 5;
+    top: 50px;
+    bottom: 0px;
+    width: 100%;
+    .img-container {
+      display: flex;
+      align-items: center;
+      margin: 10px;
+      img {
+        width: 30%;
+        margin-right: 10px;
+      }
+      span {
+        font-size: 12px;
+      }
+      background-color: white;
+      padding: 5px;
+    }
+
+    .cart-header {
+      width: 100%;
+      background-color: white;
+      h3 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        padding: 15px 20px;
+        span {
+          font-size: 14px;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .close {
+      display: none;
+    }
+
+    .empty-message {
+      font-size: 18px;
+      margin: 50px auto;
+    }
+  
+    .cart-items {
+      // height: 75vh;
+      display: flex;
+      flex-direction: column;
+      overflow: scroll;
+    }
+  
+    .btn-container {
+      background-color: white;
+      margin-top: auto;
+      position: absolute;
+      width: 100%;
+      bottom: 0px;
+      left: 0px;
+      padding: 20px;
+      p {
+        font-size: 14px;
+        text-align: center;
+        padding-bottom: 10px;
+      }
+    }
+
+    .empty {
+      text-align: center;
+      height: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h3 {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+@media screen and (min-width: 768px) {
+  .cart-dropdown-container { 
+    top: 80px;
+    .img-container {
+      img {
+        width: 20%;
+      }
+      span {
+        font-size: 16px;
+      }
+    }
+
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cart-dropdown-container { 
+    top: 100px;
+    right: 15%;
+    width: 40%;
+    .img-container {
+
+      img {
+        width: 20%;
+      }
+      span {
+        font-size: 16px;
+      }
+    }
+    .cart-header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: black;
+      color: white;
+      .close {
+        display: block;
+        font-size: 20px;
+        padding: 20px;
+      }
+    }
+  }
+}
+
+
+  

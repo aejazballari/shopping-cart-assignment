@@ -1,0 +1,150 @@
+// .cart-item {
+//     display: flex;
+//     margin: 20px;
+//     align-items: center;
+//     .item-title {
+//         margin-bottom: 20px;
+//     }
+//     img {
+//         width: 120px;
+//     }
+
+//     .item {
+//         margin-left: 15px;  
+//     }
+// }
+
+// .item-details {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     // margin-top: 20px;
+//     .q-btn {
+//         padding: 5px 10px 8px 10px;
+//         text-align: center;
+//         display: inline-block;
+//         border-radius: 50%;
+//         background-color: #cf085b;
+//         color: white;
+//         margin-right:15px;
+//         cursor: pointer;
+//     }
+
+//     .quantity {
+//         margin-right: 15px;
+//     }
+
+//     .item-price {
+//         margin-left: 15px;
+//     }
+    
+//     div {
+//         align-self: center;
+//     }
+
+//     p {
+//         font-size: 20px;
+//     }
+
+// }
+
+.cart-item {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0px;
+    .item-title {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    img {
+        width: 100px;
+    }
+
+    .item {
+        margin-left: 10px; 
+        width: 100%;
+    }
+}
+
+.item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .q-btn {
+        padding: 5px 10px 8px 10px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 50%;
+        background-color: #cf085b;
+        color: white;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+
+    .quantity {
+        margin-right: 5px;
+    }
+
+    .item-price {
+        margin-left: 10px;
+    }
+    
+    div {
+        align-self: center;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .cart-item {
+        .item-title {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+        img {
+            width: 140px;
+        }
+    
+        .item {
+            margin-left: 15px; 
+        }
+    }
+    .item-details {
+        .q-btn {
+            margin-right: 10px;
+        }
+    
+        .quantity {
+            margin-right: 10px;
+        }
+    
+        .item-price {
+            margin-left: 10px;
+        }
+        
+        div {
+            align-self: center;
+        }
+    
+        p {
+            font-size: 18px;
+        }
+    
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .navigation {
+        .outlet {
+            padding-top: 100px;
+        }
+    }
+}

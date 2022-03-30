@@ -1,0 +1,18 @@
+.footer {
+    background-color: lightgray;
+    margin-top: 10px;
+    p {
+        text-align: center;
+        padding: 10px 0px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .footer p {
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: left;
+        padding: 10px 0px;
+    }
+}

@@ -1,0 +1,12 @@
+.categories:nth-child(odd) {
+    .category {
+        flex-direction: row-reverse;
+    }
+}
+
+
+.categories:nth-last-child(1) {
+    .shadow {
+        display: none;
+    }
+}

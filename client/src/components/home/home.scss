@@ -1,0 +1,33 @@
+.banners {
+    padding: 30px 0px;
+    img {
+        width: 100%;
+    }
+}
+
+.carousel {
+    position: relative;
+}
+
+.banner-shadow {
+    position: absolute;
+    z-index: -1;
+    border: 1px solid transparent;
+    bottom: 33px;
+    left: 10%;
+    width: 80%;
+    height: 50px;
+    border-radius: 80%;
+    box-shadow: 1px 0px 5px 3px rgba(139, 139, 139, 0.945);
+}
+
+@media screen and(min-width: 768px){
+
+}
+
+@media screen and(min-width: 1200px){
+    .home {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

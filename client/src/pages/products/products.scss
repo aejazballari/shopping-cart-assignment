@@ -1,0 +1,40 @@
+.products-page {
+    display: flex;
+    flex-direction: column;
+    ul {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .products-page {
+        justify-content: space-around;
+        flex-direction: row;
+        ul {
+            display: block;
+            width: 25%;
+            list-style: none;
+            background-color: lightgrey;
+            li {
+                border-bottom: 1px solid gray;
+                padding: 20px 40px;
+            }
+        }
+        .category-name {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .products-page {
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 15px;
+        ul {
+            li {
+                font-size: 20px;
+            }
+        }
+    }
+}
